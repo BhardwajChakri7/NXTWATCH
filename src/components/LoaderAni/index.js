@@ -1,6 +1,6 @@
 import Loader from 'react-loader-spinner'
 import ThemeContext from '../../context/ThemeContext'
-import {LoaderAnimation} from './StyledComponents'
+import LoaderAnimation from './StyledComponents'
 
 const LoaderAni = () => (
   <ThemeContext.Consumer>

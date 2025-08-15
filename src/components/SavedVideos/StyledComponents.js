@@ -1,5 +1,9 @@
 import styled from 'styled-components'
 
+export const SavedVideosContainer = styled.div`
+  min-height: 100vh;
+  background-color: ${props => (props.themeStatus ? '#0f0f0f' : '#f9f9f9')};
+`
 export const TrendingMainHeader = styled.div`
   background-color: ${props => (!props.themeStatus ? '#f1f5f9' : '#313131')};
   width: 81vw;
@@ -10,7 +14,7 @@ export const TrendingMainHeader = styled.div`
   align-items: center;
 `
 export const TrendingFireLogoContainer = styled.div`
-display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -20,17 +24,17 @@ display: flex;
   height: 60px;
   width: 60px;
   margin-right: 20px;
-  margin-top:15px;
-  margin-bottom:15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 `
 export const TrendingVideosPageHeading = styled.h1`
   font-family: 'Roboto';
   font-weight: bold;
   color: ${props => (props.themeStatus ? '#ffffff' : '#000000')};
-  font-size: 25px;  
+  font-size: 25px;
 `
 export const AllTrendingVideosUnorderedList = styled.ul`
-  background-color:${props => (!props.themeStatus ? ' #e9e9e9' : '#000000')};
+  background-color: ${props => (!props.themeStatus ? ' #e9e9e9' : '#000000')};
   list-style: none;
   padding: 10px;
   margin-top: -1px;
@@ -53,5 +57,5 @@ export const NoSavedVideosMainHeading = styled.h1`
 export const NoSavedVideosMainPara = styled.p`
   font-size: 16px;
   font-family: 'Roboto';
-  color:${props => (props.themeStatus ? '#f1f1f1' : '#464646')};
+  color: ${props => (props.themeStatus ? '#f1f1f1' : '#464646')};
 `

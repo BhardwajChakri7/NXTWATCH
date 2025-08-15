@@ -8,13 +8,13 @@ const PremiumAddPage = props => {
   }
 
   return (
-    <div className="premium-add-main-container">
+    <div className="premium-add-main-container" data-testid="banner">
       <div className="premium-add-main-container-1">
         <div>
           <img
             src="https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png"
             className="premium-page-main-img-logo"
-            alt="logo"
+            alt="nxt watch logo"
           />
           <p className="premium-add-main-para">
             Buy Nxt Watch Premium prepaid plans with <br />

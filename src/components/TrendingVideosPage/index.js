@@ -8,6 +8,7 @@ import DisplayEachVideoTrendingSection from '../DisplayEachVideoTrendingSection'
 import Header from '../Header'
 import Slider from '../Slider'
 import {
+  TrendingContainer,
   TrendingMainHeader,
   TrendingFireLogoContainer,
   TrendingVideosPageHeading,
@@ -66,7 +67,7 @@ class TrendingVideosPage extends Component {
         {value => {
           const {themeStatus} = value
           return (
-            <div className="trendingVideosMainContainer">
+            <TrendingContainer data-testid="trending" themeStatus={themeStatus}>
               <TrendingMainHeader themeStatus={themeStatus}>
                 <TrendingFireLogoContainer themeStatus={themeStatus}>
                   <HiFire className="trending-fire-logo" />
@@ -83,7 +84,7 @@ class TrendingVideosPage extends Component {
                   />
                 ))}
               </AllTrendingVideosUnorderedList>
-            </div>
+            </TrendingContainer>
           )
         }}
       </ThemeContext.Consumer>

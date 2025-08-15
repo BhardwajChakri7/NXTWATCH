@@ -2,6 +2,7 @@ import {Component} from 'react'
 import Cookies from 'js-cookie'
 import {SiYoutubegaming} from 'react-icons/si'
 import {
+  GamingContainer,
   TrendingVideosPageHeading,
   TrendingMainHeader,
   TrendingFireLogoContainer,
@@ -109,13 +110,20 @@ class DisplayGamingPage extends Component {
 
   render() {
     return (
-      <>
-        <Header />
-        <div className="non-header-sub-container">
-          <Slider />
-          {this.renderingTheBasedOnApiStatus()}
-        </div>
-      </>
+      <ThemeContext.Consumer>
+        {value => {
+          const {themeStatus} = value
+          return (
+            <GamingContainer data-testid="gaming" themeStatus={themeStatus}>
+              <Header />
+              <div className="non-header-sub-container">
+                <Slider />
+                {this.renderingTheBasedOnApiStatus()}
+              </div>
+            </GamingContainer>
+          )
+        }}
+      </ThemeContext.Consumer>
     )
   }
 }

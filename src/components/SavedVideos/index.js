@@ -6,6 +6,7 @@ import Header from '../Header'
 import Slider from '../Slider'
 
 import {
+  SavedVideosContainer,
   TrendingMainHeader,
   TrendingFireLogoContainer,
   TrendingVideosPageHeading,
@@ -61,13 +62,23 @@ class SavedVideos extends Component {
 
   render() {
     return (
-      <>
-        <Header />
-        <div className="non-header-sub-container">
-          <Slider />
-          {this.renderTheSavedVideos()}
-        </div>
-      </>
+      <ThemeContext.Consumer>
+        {value => {
+          const {themeStatus} = value
+          return (
+            <SavedVideosContainer
+              themeStatus={themeStatus}
+              data-testid="savedVideos"
+            >
+              <Header />
+              <div className="non-header-sub-container">
+                <Slider />
+                {this.renderTheSavedVideos()}
+              </div>
+            </SavedVideosContainer>
+          )
+        }}
+      </ThemeContext.Consumer>
     )
   }
 }

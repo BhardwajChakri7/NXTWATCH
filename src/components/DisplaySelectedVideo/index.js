@@ -7,6 +7,7 @@ import Header from '../Header'
 import Slider from '../Slider'
 import FailureView from '../FailureView'
 import {
+  SavedVideosContainer,
   ViewsCountMainPara,
   ListPublishedpara,
   MainVideoChannelName,
@@ -238,13 +239,23 @@ class DisplaySelectedVideo extends Component {
 
   render() {
     return (
-      <>
-        <Header />
-        <div className="non-header-sub-container">
-          <Slider />
-          {this.renderingTheBasedOnApiStatus()}
-        </div>
-      </>
+      <ThemeContext.Consumer>
+        {value => {
+          const {themeStatus} = value
+          return (
+            <SavedVideosContainer
+              data-testid="videoItemDetails"
+              themeStatus={themeStatus}
+            >
+              <Header />
+              <div className="non-header-sub-container">
+                <Slider />
+                {this.renderingTheBasedOnApiStatus()}
+              </div>
+            </SavedVideosContainer>
+          )
+        }}
+      </ThemeContext.Consumer>
     )
   }
 }

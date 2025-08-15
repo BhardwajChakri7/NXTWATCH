@@ -135,10 +135,9 @@ class MainHomePage extends Component {
         {value => {
           const {themeStatus} = value
           return (
-            <MainHomePageContainer themeStatus={themeStatus} data-testid="home">
+            <MainHomePageContainer themeStatus={themeStatus}>
               {premimumNote && (
                 <PremiumAddPage
-                  data-testid="banner"
                   removeTakePremiumAdd={this.removeTakePremiumAdd}
                 />
               )}

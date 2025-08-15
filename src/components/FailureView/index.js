@@ -23,7 +23,7 @@ const FailureView = props => {
           <div className="mainFailureViewContainer">
             <img
               src={errorViewImg}
-              alt="error view"
+              alt="failure view"
               className="main-error-view-img"
             />
             <MainFailureViewHeading themeStatus={themeStatus}>
