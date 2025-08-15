@@ -1,0 +1,38 @@
+.mainFailureViewContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: transparent;
+}
+.main-error-view-img {
+  height: 430px;
+  width: 500px;
+  margin-bottom: 10px;
+}
+.mainFailureViewHeading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #000000;
+}
+.mainFailureViewPara {
+  font-size: 18px;
+  margin-top: -1px;
+  font-family: 'Roboto';
+  color: #464646;
+}
+.mainFailureViewButton {
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #4f46e5;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

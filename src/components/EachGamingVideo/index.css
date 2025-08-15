@@ -1,0 +1,12 @@
+.gaming-video-link {
+  text-decoration: none;
+}
+.gamingVideoListItem {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.eachVideoGamingThumbNailUrl {
+  height: 350px;
+  width: 300px;
+}

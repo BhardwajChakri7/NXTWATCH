@@ -1,0 +1,64 @@
+.main-theme-img {
+  height: 35px;
+  width: 35px;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+.main-theme-img-1 {
+  height: 35px;
+  width: 35px;
+  margin-top: 4px;
+  margin-right: 10px;
+  color: #ffffff;
+}
+.main-theme-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.main-popup-contianer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 130px;
+  width: 380px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 2px 0px #000000;
+}
+.popup-main-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.popup-cancel-button {
+  border: 1px solid #000000;
+  background-color: transparent;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  width: 70px;
+  border-radius: 2px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.popup-confirm-button {
+  cursor: pointer;
+  border: none;
+  background-color: #3b82f6;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  width: 70px;
+  border-radius: 2px;
+  margin-left: 10px;
+}

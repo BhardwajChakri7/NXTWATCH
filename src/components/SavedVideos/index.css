@@ -1,0 +1,24 @@
+.NoSavedVideosFoundMainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  height: 90vh;
+  width: 90vw;
+}
+.no-saved-vodeos-found-img {
+  height: 400px;
+  width: 400px;
+}
+.noSavedVideosMainHeading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #000000;
+}
+.noSavedVideosMainPara {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #464646;
+}

@@ -1,0 +1,38 @@
+.trendingVideosMainContainer {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: calc(100vh - 74px);
+}
+.trendingMainHeader {
+  background-color: #f1f1f1;
+  width: 81vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.trending-fire-logo {
+  color: #ff0000;
+  height: 30px;
+  width: 30px;
+}
+.trendingFireLogoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+.allTrendingVideosUnorderedList {
+  background-color: #e9e9e9;
+  list-style: none;
+  padding: 10px;
+  margin-top: -1px;
+}

@@ -1,0 +1,43 @@
+.main-thumbnailUrl-img {
+  width: 400px;
+  height: 230px;
+  margin-right: 20px;
+}
+.trendingSectionMainHeading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #000;
+  font-size: 25px;
+}
+.trendingSectionChannelLogo {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.trendingSectionChannelLogoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -14px;
+}
+.trendingSectionAllDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: -14px;
+}
+.trending-section-views-publishedAt-container {
+  margin-top: -10px;
+  display: flex;
+  align-items: center;
+}
+.trendingPageLinkContainer {
+  text-decoration: none;
+}
+.trendingPageChannelName {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #1d1d1d;
+  font-size: 15px;
+}

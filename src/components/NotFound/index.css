@@ -1,0 +1,17 @@
+.not-found-main-img {
+  max-height: 520px;
+  max-width: 500px;
+}
+.not-found-main-heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 500;
+  color: #000;
+}
+.not-found-main-paragraph {
+  margin-top: -1px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}

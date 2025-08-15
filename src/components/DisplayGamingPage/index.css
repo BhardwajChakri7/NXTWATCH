@@ -1,0 +1,11 @@
+.displayMainGamingContainer {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: calc(100vh - 75px);
+}
+.allGamingVideosUnorderList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}

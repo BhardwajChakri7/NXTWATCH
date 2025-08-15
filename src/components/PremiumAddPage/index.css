@@ -1,0 +1,49 @@
+.premium-add-main-container {
+  display: flex;
+  justify-content: space-between;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  height: 33vh;
+  background-size: cover;
+  width: 100%;
+  padding: 30px;
+  flex-shrink: 0;
+}
+.premium-page-main-img-logo {
+  width: 150px;
+  height: 35px;
+}
+.premium-add-main-container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.premium-add-gotitNow-button {
+  width: 150px;
+  height: 40px;
+  border: 2px solid #000;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.premium-add-main-para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 3%;
+}
+.main-premium-add-close-button {
+  height: 18px;
+  width: 20px;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}

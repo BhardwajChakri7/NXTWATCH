@@ -1,0 +1,92 @@
+.selected-video-title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-style: normal;
+  color: #000000;
+}
+.views-and-publishedAt-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -5px;
+}
+.like-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 14px;
+}
+.like-button {
+  font-size: 22px;
+  margin-right: 4px;
+  padding-right: 4px;
+}
+.like-button-clicked {
+  font-size: 22px;
+  margin-right: 4px;
+  color: #3b82f6;
+}
+.like-content {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #000000;
+}
+.like-content-clicked {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #3b82f6;
+}
+.views-date-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.all-buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.separator-line {
+  border: none;
+  height: 1.5px;
+  background: #000000;
+  margin-bottom: 20px;
+}
+.selected-video-all-content-main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.selected-youtube-channel-logo {
+  height: 50px;
+  width: 50px;
+  margin-right: 13px;
+}
+.subscribers-count-para {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+.main-video-container {
+  flex-shrink: 0;
+  background-size: cover;
+}
+.heading-subcribers-container {
+  margin-left: 63px;
+}
+.selected-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}

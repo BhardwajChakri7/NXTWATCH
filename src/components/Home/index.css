@@ -1,0 +1,4 @@
+.non-header-sub-container {
+  display: flex;
+  min-width: 99vw;
+}

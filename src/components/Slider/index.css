@@ -1,0 +1,60 @@
+.slider-unordered-list {
+  list-style: none;
+  padding: 0px;
+}
+.each-list-main-item {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.slider-react-icons-main {
+  height: 25px;
+  width: 25px;
+  margin-right: 20px;
+}
+.slider-main-heading {
+  padding-top: 3px;
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+}
+.isSelected {
+  background-color: #f1f1f1;
+}
+.isSelectedIcon {
+  color: #ff0000;
+}
+.isSelectedHeading {
+  color: #000;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+}
+.each-link-container {
+  text-decoration: none;
+  color: #000;
+}
+.user-details-social-media-logos-unordered-list {
+  list-style: none;
+  display: flex;
+  padding-left: 30px;
+}
+.user-details-main-heading {
+  padding-left: 30px;
+  color: #000;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+}
+.user-details-social-media-logo {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+.user-details-social-media-para {
+  color: #000;
+  padding-left: 30px;
+  font-family: 'Roboto';
+  font-size: 15px;
+}

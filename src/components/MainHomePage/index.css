@@ -1,0 +1,47 @@
+.homePageAllVideosContainer {
+  display: flex;
+  flex-direction: column;
+}
+.all-videos-main-container-list-container {
+  width: 99%;
+}
+.react-search-icon {
+  height: 30px;
+  width: 30px;
+}
+.all-videos-container-unordered-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+}
+.no-search-results-found {
+  height: 300px;
+  width: 380px;
+}
+.products-loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20vh;
+}
+.mainNoSearchResultsFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.mainNoSearchResultsHeading {
+  font-family: 'Roboto';
+  font-weight: bolder;
+  font-size: 24px;
+  color: #000;
+}
+.mainNoSearchResultsPara {
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-top: -1px;
+  color: #000;
+}
